@@ -1,0 +1,22 @@
+# Ignore uploaded files
+public/uploads/profiles/*
+public/uploads/receipts/*
+!public/uploads/profiles/.gitkeep
+!public/uploads/receipts/.gitkeep
+
+# Ignore config with credentials
+config/config.php
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+error_log
